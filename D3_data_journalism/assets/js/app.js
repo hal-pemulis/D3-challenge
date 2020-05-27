@@ -77,7 +77,7 @@ function updateToolTip(chosenXAxis, circlesGroup) {
 
 // Retrieve data from the CSV file 
 (async function(){
-  var url = "https://media.githubusercontent.com/media/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/master/homework-instructions/16-D3/Instructions/StarterCode/assets/data/data.csv?token=AH6CPXAYPEYCYWOZARZ4SYC6Y5CI6";
+  var url = "https://media.githubusercontent.com/media/the-Coding-Boot-Camp-at-UT/UT-MCC-DATA-PT-01-2020-U-C/master/homework-instructions/16-D3/Instructions/StarterCode/assets/data/data.csv?token=AH6CPXAXX5556PB2XXK5JY26Z4CAG";
   // var url = "/data/data.csv";
   var csvData = await d3.csv(url).catch(function(error) {
     console.log(error);
